@@ -46,6 +46,7 @@ run = "fastapi dev fastapi_curso/app.py"
 pre_test = "task lint"
 test = "pytest -s -x --cov=fastapi_curso --cov-report=term-missing -vv"
 post_test = "coverage html"
+cove = "start index.html"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
